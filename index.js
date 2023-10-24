@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 
 app.use(cors({
-  origin: "http://localhost:3000", // Allow requests from your frontend origin
+  origin: "https://notewave.onrender.com/", // Allow requests from your frontend origin
   methods: 'GET, POST, PUT, DELETE', // Specify the allowed methods, including DELETE
   optionsSuccessStatus: 204, // Respond to preflight requests with a 204 No Content status
 }));
